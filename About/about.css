@@ -1,0 +1,248 @@
+
+
+body{
+    /* background-color: #A67B5B; */
+    background-color: #221409;
+    padding: 20px;
+}
+
+img{
+    
+    background-position: center;
+    height: 99vh;
+    background-attachment: fixed;
+    margin: 0% 20% 5% 27%;
+    border-radius: 600px;
+    display: inline-block;
+    position:fixed;
+    opacity: 0.5;
+    border: 0px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.navbar{
+    /* background-color: rgb(255, 255, 255); */
+    background-color: #ECB176;
+    height: 50px;
+    margin: 10px 10px 10px 80px;
+    padding: 30px;
+    width: 85%;
+    position: relative;
+    z-index: 6;
+    opacity: 0.5;
+    border-radius: 40px;
+    /* box-shadow: 0 4px 8px 0 #ECB176, 0 6px 20px 0 #ECB176; */
+}
+
+.navbar img{
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    position: absolute;
+    display: inline-block;
+    left: 0%;
+    top: 12%;
+    margin-left: 6%;
+    box-shadow: 0 4px 8px 0 #4a3119, 0 6px 20px 0 #3a2919; 
+}
+
+
+.navbar h1{
+    width: 700px;
+    height: 75px;
+    margin: 2px 2px 2px 140px;
+    display: inline-block;
+    color: #372314;
+}
+
+.navbar ul{
+    display: inline-block;
+    margin: 0px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    right: 20px;
+    padding: 17px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: #372314;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.navbar ul li a{
+    color: #372314;
+    font-size: 20px; 
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: rgb(253, 253, 253);
+    /* box-shadow: inset; */
+    /* transition: 0.5s ease-in-out; */
+    /* background-color: #ffffff; */
+    transform: scaleX(1);
+    /* text-decoration: underline; */
+    line-height: 20px;
+    list-style: circle;
+    
+}
+
+/* About Us */
+
+.aboutus{
+    background-color: rgb(255, 255, 255);
+    height: 250vh;
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    z-index: 8;
+    margin-left: 5%;
+    opacity: 0.5;
+    margin-top: 5%;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 #ffffff, 0 6px 20px 0 #ffffff;
+    /* line-height: 3em; */
+    /* color: white; */
+    font-weight: bolder;
+}
+
+.aboutus .container1{
+    margin: 7% 5% 20% 5% ;
+    text-align: center;
+    font-size: x-large;
+    /* line-height: 3em; */
+    /* text-align: justify; */
+    /* letter-spacing: .15em;
+    overflow: hidden;
+    white-space: nowrap;
+    animation:
+     typing 4s steps(80, end),
+     blink-caret 0.75s step-end infinite;
+     animation-iteration-count: 1; */
+}
+
+/* Typing animation */
+/* @keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 650px;
+    }
+} */
+
+/* The typewriter cursor effect */
+/* @keyframes blink-caret{
+    from, to { border-color: transparent }
+    100% { border-color:#221409; }
+  } */
+
+.aboutus .container1 h1{
+    line-height: 1em;
+    letter-spacing: .15em;
+    overflow: hidden;
+    white-space: nowrap;
+    animation:
+     typing 4s steps(80, end),
+     blink-caret 0.75s step-end infinite;
+     animation-iteration-count: 1;
+}
+
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 650px;
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret{
+    from, to { border-color: transparent }
+    70% { border-color:#221409; }
+  }
+
+
+.aboutus .container1 h2{
+    text-align: center;
+    line-height: 3em;
+}
+
+
+
+
+  footer {
+    /* background-color: #372314; */
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    height: 40vh;
+    margin: 50px 20px;
+    /* opacity: 1; */
+}
+
+footer .container{
+   margin: 30px ;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+footer .contact-info, .social-media, .newsletter {
+    margin: 30px;
+    flex: 1 1 300px;
+}
+
+footer .social-media a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+footer .newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid brown;
+    border-radius: 4px;
+}
+
+footer .newsletter button {
+    background-color: #4b2b0a;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer .foot{
+    background: #ffffff;
+    color: #221409;
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    width: 90%;
+    /* height: 60px; */
+    margin: 80px 50px 50px 80px;
+    /* font-size: xx-large; */
+    border-radius: 5px;
+    opacity: 0.4;
+}
